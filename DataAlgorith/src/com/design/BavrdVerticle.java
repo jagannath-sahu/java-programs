@@ -16,6 +16,8 @@ public abstract class BavrdVerticle extends Verticle {
 
     if (!helpMap.isEmpty()) {
       System.out.println("not empty");
+    } else {
+      System.out.println("empty");
     }
 
     startBavrd();
