@@ -7,6 +7,8 @@ public class Demo {
 
     Brain1 brain1 = new Brain1();
     brain1.start();
+
+    brain1.initBrain();
   }
 
 }

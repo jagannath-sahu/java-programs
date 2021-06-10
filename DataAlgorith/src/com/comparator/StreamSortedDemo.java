@@ -3,7 +3,7 @@ package com.comparator;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
+import static java.util.stream.Collectors.*;
 
 public class StreamSortedDemo {
   public static void main(String[] args) {
@@ -25,7 +25,7 @@ public class StreamSortedDemo {
 
     stdList.stream().sorted(Comparator.reverseOrder()).forEach(s -> System.out.print(s.getName() + " "));
 
-    List<Student> sortedList = stdList.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
+    List<Student> sortedList = stdList.stream().sorted(Comparator.reverseOrder()).collect(toList());
 
     System.out.println("\n");
 

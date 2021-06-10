@@ -59,9 +59,9 @@ public class App {
 
     var tom = new Person(List.of(new Car("Jeep", "Wrangler", 2011, Category.JEEP),
             new Car("Jeep", "Comanche", 1990, Category.JEEP),
-            new Car("Dodge", "Avenger", 2009, Category.SEDAN),
+            new Car("Dodge", "Avenger", 2014, Category.SEDAN),
             new Car("Buick", "Cascada", 2016, Category.CONVERTIBLE),
-            new Car("Ford", "Focus", 2011, Category.SEDAN),
+            new Car("Ford", "Focus", 2013, Category.SEDAN),
             new Car("Chevrolet", "Geo Metro", 1992, Category.CONVERTIBLE)));
 
     var sedansOwnedImperative = ImperativeProgramming.getSedanCarsOwnedSortedByDate(List.of(john, tom));
